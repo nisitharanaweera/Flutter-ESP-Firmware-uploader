@@ -16,10 +16,10 @@ class MyHomePage extends StatelessWidget {
           onPressed: () {
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => ScanScreen()),
+              MaterialPageRoute(builder: (context) => const ScanScreen()),
             );
           },
-          child: const Text('Go to Second Screen'),
+          child: const Text('Main Screen'),
         ),
       ),
     );
